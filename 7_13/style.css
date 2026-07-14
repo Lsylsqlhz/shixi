@@ -1,0 +1,16 @@
+/* 正常状态的输入框 */
+.input {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* 错误状态的输入框 (当长度不足时生效) */
+.input-error {
+  border: 2px solid red; /* 红色边框 */
+  background-color: #fff0f0; /* 浅红背景 */
+  color: red;
+  padding: 8px;
+  border-radius: 4px;
+}
